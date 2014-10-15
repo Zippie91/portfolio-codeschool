@@ -37,6 +37,11 @@ h3 {
   margin: 20px 0;
 }
 
+p {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+}
+
 .header {
   background-color: #999999;
 }
@@ -47,16 +52,26 @@ h3 {
   padding: 20px 0;
 }
 
-.projects {
+.projects, .badges {
   width: 700px;
   margin: 0 auto;
 
 }
 
-.projects ul {
+.projects ul, .badges ul {
   list-style-type: none;
 }
 
-.projects li {
+.projects li, .badges li {
   margin-bottom: 10px;
+}
+
+.badges img {
+  float: left;
+  padding-right: 10px;
+}
+
+.badges li {
+  width: 50%;
+  float: left;
 }
